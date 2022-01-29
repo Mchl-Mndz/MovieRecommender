@@ -21,6 +21,7 @@ class Movie {
 
 class RecommendHandler {
     vector<Movie*> movies;
+
 };
 
 
