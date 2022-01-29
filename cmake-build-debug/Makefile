@@ -129,6 +129,30 @@ Swamphacks2022/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Swamphacks2022.dir/build.make CMakeFiles/Swamphacks2022.dir/build
 .PHONY : Swamphacks2022/fast
 
+RecommendHandler.o: RecommendHandler.cpp.o
+.PHONY : RecommendHandler.o
+
+# target to build an object file
+RecommendHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Swamphacks2022.dir/build.make CMakeFiles/Swamphacks2022.dir/RecommendHandler.cpp.o
+.PHONY : RecommendHandler.cpp.o
+
+RecommendHandler.i: RecommendHandler.cpp.i
+.PHONY : RecommendHandler.i
+
+# target to preprocess a source file
+RecommendHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Swamphacks2022.dir/build.make CMakeFiles/Swamphacks2022.dir/RecommendHandler.cpp.i
+.PHONY : RecommendHandler.cpp.i
+
+RecommendHandler.s: RecommendHandler.cpp.s
+.PHONY : RecommendHandler.s
+
+# target to generate assembly for a file
+RecommendHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Swamphacks2022.dir/build.make CMakeFiles/Swamphacks2022.dir/RecommendHandler.cpp.s
+.PHONY : RecommendHandler.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Swamphacks2022"
+	@echo "... RecommendHandler.o"
+	@echo "... RecommendHandler.i"
+	@echo "... RecommendHandler.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

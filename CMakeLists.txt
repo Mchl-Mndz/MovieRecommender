@@ -3,4 +3,4 @@ project(Swamphacks2022)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Swamphacks2022 main.cpp)
+add_executable(Swamphacks2022 main.cpp RecommendHandler.cpp RecommendHandler.h)
